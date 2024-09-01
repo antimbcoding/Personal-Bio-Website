@@ -1,0 +1,141 @@
+html,body {
+   height: 100%;
+   width: 100%;
+  background-color: #8abfb0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: black
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+#navbar a.active {
+  background-color: #1b9e5c;
+  color: white;
+}
+
+#contact_card {
+  background-color: #008055;
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #006636;
+  box-shadow: inset 1px 6px 12px #91eeb9, inset -1px -10px 5px #006636 , 1px 2px 1px black;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+#container {
+ margin-top: -10px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  padding-bottom: 25px;
+} 
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #333333;
+  border-radius: 25px;
+  background-color: #1b9e5c;
+  margin-top: 50px;
+  box-shadow: inset 1px 3px 6px #91eeb9, inset -1px -5px 3px #006636 , 1px 2px 1px black;
+}
+
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#bio {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-shadow: 1px 1px 1px darkgrey;
+  font-size: 24px;
+}
+
+.image {
+  border-radius: 25px;
+  background-color: beige;
+  outline: auto;
+}
+
+#im {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#pi {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-shadow: 1px 1px 1px darkgreen;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
